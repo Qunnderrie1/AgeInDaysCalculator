@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/index.css">
+    <title>Your Age In Days Calculator</title>
+</head>
+<body>
+    <div class="mainContainer">
+        <div class="headContainer">
+            <Header>Your Age in Days</Header>
+            <hr>
+        </div>
+        <div class="ageContainer">
+            <p class="userError" id="errorMsg"></p>
+            <input type="text" name="userAge" id="userAge" placeholder="Enter Your Birth Year">
+        </div>
+        <div class="myButtons">
+            <button class="clickMeBtn" id="userClickMeBtn" type="button">Calculate</button>
+            <button class="ResetBtn" id="resetBtn" type="button">Reset</button>
+        </div>
+        <div class="userResults" id="userResults">
+            <p>Your age in days is:</p>
+                <p class="myAge" id="appResults">0</p>
+        </div>
+    </div>
+
+
+
+    <script src="/index.js"></script>
+</body>
+</html>

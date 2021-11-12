@@ -1,0 +1,119 @@
+.mainContainer
+{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    color:white;
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+}
+body{
+    background-color: blueviolet;
+}
+.userError
+{
+
+    color: red;
+    font-size: 26px;
+}
+.headContainer
+{
+    padding: 20px 0px;
+}
+.ageContainer
+{
+     width: 100%;
+    text-align: center;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+}
+::placeholder
+{
+    text-align: center;
+}
+.myButtons
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.clickMeBtn
+{
+    background-color: orange;
+    color:white;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.ResetBtn{
+
+    background-color: orange;
+    color:white;
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+.ResetBtn:hover , .clickMeBtn:hover{
+    background-color: rgb(238, 203, 138);
+}
+
+.userResults
+{
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+.userResults p{
+    font-size: 40px;
+}
+.myAge
+{
+    background-color: orange;
+    justify-content: center;
+    margin: 40px auto;
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 490px) {
+
+    .headContainer
+    {
+        padding: 20px;
+    }
+    .myButtons
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+.userResults
+{
+    margin-top: 50px;
+    padding: 0px 50px;
+}
+
+
+.clickMeBtn{
+    margin-bottom: 50px;
+}
+    
+}
