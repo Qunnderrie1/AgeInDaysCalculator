@@ -1,18 +1,20 @@
 body{
     font-family: "Montserrat";
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(218, 218, 218);
 }
 .mainContainer
 {
+
+
     display: flex;
     flex-direction: column;
     height: fit-content;
-    color:white;
+    color:rgb(49, 49, 49);
     font-size: 40px;
     font-weight:bold;
     text-align: center;
-}
-body{
-    background-color: blueviolet;
 }
 .userError
 {
@@ -48,7 +50,7 @@ input{
 }
 .clickMeBtn
 {
-    background-color: orange;
+    background-color: rgb(0, 85, 182);
     color:white;
     width: 150px;
     border: none;
@@ -59,7 +61,7 @@ input{
 }
 .ResetBtn{
 
-    background-color: orange;
+    background-color: rgb(0, 85, 182);
     color:white;
     width: 150px;
     padding: 10px;
@@ -69,9 +71,13 @@ input{
     font-weight: bold;
 }
 .ResetBtn:hover , .clickMeBtn:hover{
-    background-color: rgb(238, 203, 138);
+    background-color:  rgb(0, 85, 182);
 }
 
+hr{
+    padding: 0px 40px;
+    width: 50%;
+}
 
 .userResults
 {
@@ -80,10 +86,14 @@ input{
 }
 .userResults p{
     font-size: 40px;
+
+}
+.userResults p:nth-child(2){
+    color: white;
 }
 .myAge
 {
-    background-color: orange;
+    background-color: rgb(0, 85, 182);
     justify-content: center;
     margin: 40px auto;
     text-align: center;

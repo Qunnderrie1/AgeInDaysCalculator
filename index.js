@@ -14,6 +14,7 @@ var currentYear = new Date().getFullYear();
 reset.addEventListener('click' , () =>{
 
     userResults.textContent = 0;
+    age.value = "";
 })
 
 clickMe.addEventListener('click' , () => {
